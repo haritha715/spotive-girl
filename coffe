@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main
+{
+int p,x=100,i;
+printf("the price of the coffe for the first time is %d",x);
+for(i=1;i<=3;i++)
+{
+x=x/10;
+printf("discount is 90%off");
+}
+}
